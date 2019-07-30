@@ -1,0 +1,44 @@
+.navbar {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateY(-50%);
+    text-align: center;
+}
+
+.selectors {
+    font-size: 30px;
+}
+
+a {
+    color: #fff;
+}
+
+span {
+    margin-right: -5px;
+    margin-bottom: 15px;
+    color: transparent;
+}
+
+.about:hover>a, .skills:hover>a, .contact:hover>a, .projects:hover>a {
+    font-weight: bold;
+    color: #f8f401;
+    cursor: pointer;
+}
+
+.about:hover>a>span, .skills:hover>a>span, .contact:hover>a>span, .projects:hover>a>span {
+    color: #fff;
+    margin-right: 15px;
+    font-size: 15px;
+    animation: blink 1s steps(2, end) infinite;
+    font-size: 20px;
+}
+
+@keyframes blink {
+    from {
+        color: #f89501;
+    }
+    to {
+        color: transparent
+    }
+}

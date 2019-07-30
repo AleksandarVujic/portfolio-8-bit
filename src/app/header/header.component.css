@@ -1,0 +1,31 @@
+.title {
+    font-size: 70px;
+}
+
+.software-dev {
+    animation: softwareblink 1s steps(4, start) infinite
+}
+
+@keyframes softwareblink {
+    to {
+        visibility: hidden
+    }
+}
+
+.title {
+    overflow: hidden;
+    margin: 0 auto;
+    white-space: nowrap;
+    overflow: hidden; 
+    letter-spacing: .15em;
+    animation: typing 2s steps(20, end);
+}
+
+@keyframes typing {
+    from {
+        width: 0;
+    }
+    to {
+        width: 100%;
+    }
+}

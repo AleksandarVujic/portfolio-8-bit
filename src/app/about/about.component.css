@@ -1,0 +1,15 @@
+.text-entering p {
+    overflow: hidden;
+    margin: 0 auto;
+    letter-spacing: .15em;
+    animation: typing .5s steps(20, end);
+}
+
+@keyframes typing {
+    from {
+        height: 0;
+    }
+    to {
+        height: 100%;
+    }
+}

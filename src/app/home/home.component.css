@@ -1,0 +1,16 @@
+.home-gifs {
+    position: relative;
+    display: contents
+}
+
+.img1 {
+    position: absolute;
+    right: 10px;
+    bottom: 40px;
+}
+
+.img2 {
+    position: absolute;
+    right: 10px;
+    bottom: 10px;
+}
