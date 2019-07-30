@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'other',
+  selector: 'project-other',
   templateUrl: './other.component.html',
   styleUrls: ['./other.component.css']
 })

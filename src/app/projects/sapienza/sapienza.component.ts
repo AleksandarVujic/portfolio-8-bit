@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-sapienza',
+  selector: 'project-sapienza',
   templateUrl: './sapienza.component.html',
   styleUrls: ['./sapienza.component.css']
 })

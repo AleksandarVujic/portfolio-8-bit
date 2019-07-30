@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-igs',
+  selector: 'project-igs',
   templateUrl: './igs.component.html',
   styleUrls: ['./igs.component.css']
 })
